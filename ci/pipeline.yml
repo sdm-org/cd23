@@ -28,7 +28,7 @@ resources:
   type: git
   source:
     uri: https://github.com/sdm-org/cd23.git
-    branch: undefined
+    branch: master
 - name: atomist-build-notify
   type: atomist
   source:
@@ -41,7 +41,7 @@ resource_types:
   type: docker-image
   source:
     repository: atomist/atomist-resource
-    tag: "latest"
+    tag: latest
 - name: artifactory
   type: docker-image
   source:
